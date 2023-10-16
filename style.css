@@ -143,3 +143,44 @@ h3 {
 .clipboard p {
     margin-bottom: 1rem;
 }
+
+.workflow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.workflow_infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    flex-basis: 33%;
+    gap: 2rem;
+    margin-inline: 4rem;
+    margin-top: 2rem;
+}
+
+.workflow_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    flex-basis: 30%;
+}
+
+.textImg,
+.previewImg {
+    padding-bottom: .5rem;
+}
+
+.workflow_logos {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
