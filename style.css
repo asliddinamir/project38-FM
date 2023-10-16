@@ -38,7 +38,7 @@ body {
 }
 
 .header_title {
-    font-size: 42px;
+    font-size: 44px;
     color: var(--dark-grayish-blue);
 }
 
@@ -94,7 +94,7 @@ p {
     gap: 3rem;
 }
 
-.snippets_title {
+h2 {
     font-size: 34px;
     color: var(--dark-grayish-blue);
 }
@@ -118,6 +118,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding-right: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -128,4 +129,17 @@ p {
 
 .snippets_body_info p {
     margin-bottom: 1rem;
+}
+
+.clipboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.clipboard p {
+    margin-bottom: 2rem;
 }
