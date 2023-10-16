@@ -281,11 +281,12 @@ h3 {
 
     .snippets_description,
     .clipboard_description,
-    .hero_footer_description {
+    .hero_footer_description,
+    .workflow_description {
         width: 400px;
+        margin-inline: 1rem;
         text-align: center;
         align-items: center;
-        background-color: red;
     }
 
     .snippets_body {
@@ -299,5 +300,47 @@ h3 {
 
     .social_icons {
         margin-top: 2rem;
+    }
+}
+
+@media(max-width:600px) {
+    .workflow_infos {
+        flex-direction: column;
+    }
+
+    .footer_section {
+        flex-direction: column;
+        gap: 2rem;
+        margin-block: 2rem;
+    }
+
+    .links {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.3rem;
+    }
+}
+
+@media(max-width:451px) {
+    .workflow_logos {
+        flex-direction: column;
+    }
+
+    .header_btn button {
+        margin-block: .5rem;
+    }
+
+    .snippets_description,
+    .clipboard_description,
+    .hero_footer_description,
+    .workflow_description {
+        width: 80%;
+        margin-inline: 1rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .workflow_info {
+        flex-basis: 100%;
     }
 }
