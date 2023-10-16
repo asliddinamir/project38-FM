@@ -122,7 +122,7 @@ h2 {
     margin-bottom: 2rem;
 }
 
-.snippets_body_info h3 {
+h3 {
     font-size: 24px;
     color: var(--dark-grayish-blue);
 }
@@ -141,5 +141,5 @@ h2 {
 }
 
 .clipboard p {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
